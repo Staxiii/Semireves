@@ -20,11 +20,12 @@
                 <p class="text-logo">Sémirêves</p>
             </a>
             <div class="navigation">
+            <a href="seminaires.php">Accueil</a>
                 <?php if (isset($_SESSION['username'])) {
                 echo "<a href='reservation.php'>Réservation</a>";
                 }?>
                 <a href="seminaires.php">Séminaires</a>
-                <a href="apropos.php">À propos</a>
+                <a href="qui-sommes-nous.php">Qui sommes-nous ?</a>
                 <?php if (isset($_SESSION['rank']) === "Administrateur") {
                 echo "<a href='connexion.php'>Administration</a>"; }
                 ?>
