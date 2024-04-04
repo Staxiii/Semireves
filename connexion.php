@@ -1,4 +1,4 @@
-<?php require_once "elements/signon.php" ?>
+<?php require_once "elements/signon.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">

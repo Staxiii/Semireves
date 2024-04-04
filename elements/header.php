@@ -15,12 +15,16 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <a href="index.php"><img src="logo.png"></a>
-            </div>
+            <a href="index.php" class="logo">
+                <img src="logo.png">
+                <p class="text-logo">Sémirêves</p>
+            </a>
             <div class="navigation">
-                <a href="connexion.php">Réservation</a>
-                <a href="connexion.php">Séminaires</a>
+                <?php if (isset($_SESSION['username'])) {
+                echo "<a href='reservation.php'>Réservation</a>";
+                }?>
+                <a href="seminaires.php">Séminaires</a>
+                <a href="apropos.php">À propos</a>
                 <?php if (isset($_SESSION['rank']) === "Administrateur") {
                 echo "<a href='connexion.php'>Administration</a>"; }
                 ?>

@@ -11,15 +11,12 @@
     border: 2px solid rgb(214, 127, 255)!important;
     color: black!important;
     background-color: white!important;
-    margin: 0px!important;
-    padding: 15px!important;
     border-radius:15px!important;
 }
 
 .bouton-plein {
     color: white!important;
     background-color: rgb(214, 127, 255)!important;
-    margin: 0px!important;
-    padding: 15px!important;
+    border: 2px solid rgb(214, 127, 255)!important;
     border-radius:15px!important;
 }
