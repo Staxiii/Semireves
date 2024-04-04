@@ -1,4 +1,4 @@
-<?php require_once "elements/connect.php" ?>
+<?php require_once "elements/signon.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,18 +21,18 @@
 						<div class="card mt-4">
 							<div class="card-body">
 								<div class="m-sm-3">
-								<h1 class="h2 text-center">Se connecter</h1>
-									<form>
+								<h1 class="h2 text-center mb-4">Se connecter</h1>
+									<form method="POST">
 										<div class="mb-3">
-											<label class="form-label">Adresse mail</label>
-											<input class="form-control form-control-lg" type="email" name="email" placeholder="Entrer votre adresse mail">
+											<label class="form-label">Username</label>
+											<input class="form-control form-control-lg" type="username" name="username" placeholder="Entrer votre adresse mail">
 										</div>
 										<div class="mb-3">
 											<label class="form-label">Mot de passe</label>
 											<input class="form-control form-control-lg" type="password" name="password" placeholder="Entrer votre mot de passe">
 										</div>
 										<div class="text-center mt-4">
-                                        <a class="btn btn-lg main-button me-3 bouton-vide" href="index.php">Se connecter</a>
+                                        <button class="btn btn-lg main-button me-3 bouton-vide">Se connecter</button>
                                         <a class="btn btn-lg main-button bouton-plein" href="index.php">Retour</a>
 										</div>
 									</form>

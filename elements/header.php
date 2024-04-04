@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +25,12 @@
             </div>
             <div class="compte">
                 <a class="bouton-vide" href="connexion.php">Connexion</a>
-                <a class="bouton-plein" href="deconnexion.php">Déconnexion</a>
+                <?php if (isset($_SESSION['username'])) {
+                echo "<a class='bouton-plein' href='elements/deconnexion.php'>Déconnexion</a>";
+                }
+                else {
+                echo "<a class='bouton-plein' href='inscription.php'>Inscription</a>";
+                }?>
             </div>
         </nav>
     </header>
