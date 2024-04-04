@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($user) {
         session_start();
         $_SESSION['username'] = $user['username'];
+        $_SESSION['rank'] = $user['rank'];
         header('Location: index.php');
         exit; } 
     else {

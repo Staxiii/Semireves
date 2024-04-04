@@ -21,14 +21,17 @@
             <div class="navigation">
                 <a href="connexion.php">Réservation</a>
                 <a href="connexion.php">Séminaires</a>
-                <a href="connexion.php">Administration</a>
+                <?php if (isset($_SESSION['rank']) === "Administrateur") {
+                echo "<a href='connexion.php'>Administration</a>"; }
+                ?>
             </div>
             <div class="compte">
-                <a class="bouton-vide" href="connexion.php">Connexion</a>
+
                 <?php if (isset($_SESSION['username'])) {
                 echo "<a class='bouton-plein' href='elements/deconnexion.php'>Déconnexion</a>";
                 }
-                else {
+                else if (!isset($_SESSION['username'])) {
+                echo "<a class='bouton-vide' href='connexion.php'>Connexion</a>";
                 echo "<a class='bouton-plein' href='inscription.php'>Inscription</a>";
                 }?>
             </div>
