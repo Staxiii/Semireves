@@ -1,3 +1,25 @@
+<?php $host = '192.168.3.211';
+$dbname = 'a.fouquet';
+$username = 'a.fouquet';
+$password = 'P@ssword';
+
+    $dbh = new PDO("pgsql:host=$host;dbname=$dbname", $username, $password);
+    echo "Connexion réussie !<br>";
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $username = $_POST['name'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $rank = 'utilisateur';
+
+$sql = "INSERT INTO semireves.utilisateurs (username, email, pwd, rank) VALUES ($username, $email, $password, $rank)";
+$stmt = $dbh->prepare($sql);
+
+        $stmt->execute();
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +45,7 @@
 							<h1 class="h2">S'inscrire</h1>
 						</div>
 								<div class="m-sm-3">
-									<form>
+									<form method="POST">
 										<div class="mb-3">
 											<label class="form-label">Nom d'utilisateur</label>
 											<input class="form-control form-control-lg" type="text" name="name" placeholder="Entrer votre nom">
@@ -37,7 +59,7 @@
 											<input class="form-control form-control-lg" type="password" name="password" placeholder="Entrer votre mot de passe">
 										</div>
 										<div class="text-center mt-4">
-                                        <a class="btn btn-lg main-button me-3" href="/"><span class="">S'inscrire</span></a>
+                                        <a class="btn btn-lg main-button me-3" href="index.php"><span class="">S'inscrire</span></a>
                                         <a class="btn btn-lg main-button bouton-vide" href="index.php">Retour</a>
 										</div>
 									</form>

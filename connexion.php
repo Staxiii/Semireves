@@ -1,3 +1,5 @@
+<?php require_once "elements/connect.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +32,7 @@
 											<input class="form-control form-control-lg" type="password" name="password" placeholder="Entrer votre mot de passe">
 										</div>
 										<div class="text-center mt-4">
-                                        <a class="btn btn-lg main-button me-3 bouton-vide" href="/">Se connecter</a>
+                                        <a class="btn btn-lg main-button me-3 bouton-vide" href="index.php">Se connecter</a>
                                         <a class="btn btn-lg main-button bouton-plein" href="index.php">Retour</a>
 										</div>
 									</form>
