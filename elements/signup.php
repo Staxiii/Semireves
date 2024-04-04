@@ -9,9 +9,8 @@ $password = 'P@ssword';
         $username = $_POST['name'];
         $email = $_POST['email'];
         $password = $_POST['password'];
-        $rank = 'utilisateur';
 
-$sql = "INSERT INTO semireves.utilisateurs (username, email, pwd, rank) VALUES ('$username', '$email', '$password', '$rank')";
+$sql = "INSERT INTO semireves.utilisateurs (username, email, pwd, rank) VALUES ('$username', '$email', '$password', 'Utilisateur')";
 $stmt = $dbh->prepare($sql);
 
         $stmt->execute();

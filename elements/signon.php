@@ -26,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header('Location: index.php');
         exit; } 
     else {
-        // Identifiants incorrects
         echo "Nom d'utilisateur ou mot de passe incorrect";
     }
 }
