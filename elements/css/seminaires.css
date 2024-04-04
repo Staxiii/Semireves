@@ -1,0 +1,34 @@
+/* Bouton */
+
+.bouton_destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.container_seminaires {
+    margin-top:150px!important;
+}
+
+/* Cartes */
+
+.card {
+    border: 1px solid #00000052!important;
+}
+
+.card-body {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.libelle_pays {
+    text-align: center;
+    background-color:#d67fff;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 1px solid #00000052!important;
+    color: white;
+}

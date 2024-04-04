@@ -1,4 +1,4 @@
-<?php require_once 'elements/signup.php' ?>
+<?php require_once 'elements/php/signup.php' ?>
 
 <!DOCTYPE html>
 <html lang="en">

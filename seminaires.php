@@ -1,4 +1,4 @@
-<?php include_once 'elements/header.php' ?>
+<?php include_once 'elements/php/header.php' ?>
 <?php
 
 $host = 'etu.bts-malraux72.net'; // host = etu.bts-malraux72.net ou 192.168.3.211
