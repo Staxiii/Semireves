@@ -9,6 +9,7 @@
     <link href="elements/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="elements/css/seminaires.css">
     <link rel="stylesheet" href="elements/css/header.css">
+    <link rel="stylesheet" href="elements/css/qui-sommes-nous.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
 <script src="https://unpkg.com/@adminkit/core@latest/dist/js/app.js"></script>
