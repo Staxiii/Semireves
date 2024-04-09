@@ -1,5 +1,5 @@
 <?php 
-$host = 'etu.bts-malraux72.net';  // host = etu.bts-malraux72.net ou 192.168.3.211
+$host = '192.168.3.211';  // host = etu.bts-malraux72.net ou 192.168.3.211
 $dbname = 'a.fouquet';
 $username = 'a.fouquet';
 $password = 'P@ssword';
