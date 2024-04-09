@@ -8,7 +8,7 @@
 }
 
 .bouton-vide {
-    border: 2px solid rgb(214, 127, 255)!important;
+    border: 2px solid #7AA95C!important;
     color: black!important;
     background-color: white!important;
     border-radius:15px!important;
@@ -16,7 +16,7 @@
 
 .bouton-plein {
     color: white!important;
-    background-color: rgb(214, 127, 255)!important;
-    border: 2px solid rgb(214, 127, 255)!important;
+    background-color: #7AA95C!important;
+    border: 2px solid #7AA95C!important;
     border-radius:15px!important;
 }

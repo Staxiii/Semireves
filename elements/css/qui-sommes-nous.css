@@ -15,7 +15,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    margin-top: 8vh;
+    margin-top: 15vh;
 }
 
 .supreme .container-about {
@@ -29,10 +29,17 @@ body {
     border-radius: 25px;
 }
 
+.titre-about {
+    margin-bottom: 30px;
+
+}
+
 .supreme .container-about .content-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    width:40%;
 }
 
 .supreme .container-about2 {

@@ -47,7 +47,7 @@ header nav .navigation a {
 }
 
 header nav .navigation a:hover {
-    background-color: rgb(214, 127, 255);
+    background-color: #7AA95C;
     color:white;
     border-radius: 20px;
 }
@@ -64,13 +64,13 @@ header nav .compte a {
 }
 
 .bouton-vide {
-    border: 2px solid rgb(214, 127, 255);
+    border: 2px solid #7AA95C;
     color: black;
     background-color: white;
 }
 
 .bouton-plein {
     color: white;
-    background-color: rgb(214, 127, 255);
-    border: 2px solid rgb(214, 127, 255);
+    background-color: #7AA95C;
+    border: 2px solid #7AA95C;
 }
