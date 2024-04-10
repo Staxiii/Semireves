@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.erreur-form-inscription {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.555);
+    margin-top:3px;
+    margin-bottom:-5px;
+}
+
+.form-inscription input {
+    margin: top 50px, impo !important;;
+}
+
+.erreur-form-input {
+    border: 1px red solid!important;
+}
+
+.bouton-vide {
+    border: 2px solid #7AA95C!important;
+    color: black!important;
+    background-color: white!important;
+    border-radius:15px!important;
+}
+
+.bouton-plein {
+    color: white!important;
+    background-color: #7AA95C!important;
+    border: 2px solid #7AA95C!important;
+    border-radius:15px!important;
+}
+
+.container-inscription {
+    border-radius: 30px!important;
+    background-color: #ffffff25 !important;
+    border: 1px solid #00000079!important;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+label {
+    color:black;
+}
+
+.input-inscription {
+    width: 60%!important;
+    text-align: center;
+}
