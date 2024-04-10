@@ -50,12 +50,13 @@
                                         <a class="btn btn-lg main-button bouton-plein" href="index.php">Retour</a>
 										</div>
 									</form>
+									<div class="text-center mb-3">
+										<p>Vous avez déjà un compte ? <a href="connexion.php">Se connecter</a></p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="text-center mb-3">
-							Vous avez déjà un compte ? <a href="connexion.php">Se connecter</a>
-						</div>
+
 					</div>
 				</div>
 			</div>
