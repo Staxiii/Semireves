@@ -20,13 +20,13 @@
 							<div class="card-body">
 								
 						<div class="text-center mt-4">
-							<h1 class="h2">S'inscrire</h1>
+							<h1>Inscription</h1>
 						</div>
 								<div class="m-sm-3">
 									<form method="POST">
 										<div class="mb-3">
 											<label class="form-label">Nom d'utilisateur</label>
-											<input class="form-control form-control-lg input-name <?php if(isset($erreurName)) { echo ' erreur-form-input';}?>" type="text" name="name" placeholder="Entrer votre nom">
+											<input class="form-control form-control-lg input-inscription <?php if(isset($erreurName)) { echo ' erreur-form-input';}?>" type="text" name="name" placeholder="Entrer votre nom">
 											<div class="erreur-form-inscription">
 												<span><?php if(isset($erreurName)) { echo $erreurName; } ?></span>
 											</div>
@@ -40,18 +40,18 @@
 										</div>
 										<div class="mb-3">
 											<label class="form-label">Mot de passe</label>
-											<input class="form-control form-control-lg <?php if(isset($erreurMdp)) { echo ' erreur-form-input';}?>" type="password" name="password" placeholder="Entrer votre mot de passe">
+											<input class="form-control form-control-lg input-inscription <?php if(isset($erreurMdp)) { echo ' erreur-form-input';}?>" type="password" name="password" placeholder="Entrer votre mot de passe">
 											<div class="erreur-form-inscription">
 												<span><?php if(isset($erreurMdp)) { echo $erreurMdp; } ?></span>
 											</div>
 										</div>
-										<div class="text-center mt-4">
-                                        <button class="btn btn-lg main-button me-3 bouton-vide">Se connecter</button>
-                                        <a class="btn btn-lg main-button bouton-plein" href="index.php">Retour</a>
+										<div class="text-center boutons">
+                                        	<button class="btn btn-lg main-button me-3 bouton-vide">S'inscrire</button>
+                                        	<a class="btn btn-lg main-button bouton-plein" href="index.php">Retour</a>
 										</div>
 									</form>
 									<div class="text-center mb-3">
-										<p>Vous avez déjà un compte ? <a href="connexion.php">Se connecter</a></p>
+										<p class="no-compte">Vous avez déjà un compte ? <a href="connexion.php">Se connecter</a></p>
 									</div>
 								</div>
 							</div>

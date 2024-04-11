@@ -7,28 +7,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
 }
 
-.h2 {
-    margin-bottom: 30px!important;
+h1 {
     color:rgb(73, 69, 69)!important;
-
+    font-weight: 800!important;
 }
 
 .erreur-form-inscription {
     text-align: center;
     color: rgba(255, 0, 0, 0.555);
-    margin-top:3px;
-    margin-bottom:-5px;
+    margin-top: 3px;
+    margin-bottom:8px;
 }
 
 .form-label {
-    margin-bottom:10px!important;
+    font-weight:400!important;
+    margin-bottom:-5px!important;
+}
+
+.no-compte {
+    font-weight:400!important;
+    margin-top:20px!important;
+    margin-bottom:-5px!important;
 }
 
 .form-inscription input {
     margin: top 50px, impo !important;;
 }
+
 
 .erreur-form-input {
     border: 1px red solid!important;
@@ -57,15 +65,17 @@
     border-radius: 30px!important;
     background-color: #ffffff70 !important;
     border: 1px solid #ffffffa2!important;
+
 }
 
+.boutons {
+    margin-top:-10px!important;
+}
 
 body {
     background-position: center;
     background-size: cover;
 }
-
-
 
 label {
     color:rgb(73, 69, 69);
