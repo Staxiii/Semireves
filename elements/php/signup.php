@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         else if (!empty($_POST['password']) && !empty($_POST['email']) && !empty($_POST['password']))
             {
-$host = '192.168.3.211';  // host = etu.bts-malraux72.net ou 192.168.3.211
+$host = 'etu.bts-malraux72.net';  // host = etu.bts-malraux72.net ou 192.168.3.211
 $dbname = 'a.fouquet';
 $username = 'a.fouquet';
 $password = 'P@ssword';
@@ -27,7 +27,7 @@ $password = 'P@ssword';
         $stmt = $dbh->prepare($sql);
 
         $stmt->execute();
-        header('LOCATION: index.php');
+        header('LOCATION: accueil.php');
         }
     }
 ?>

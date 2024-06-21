@@ -1,0 +1,84 @@
+.container-main-admin {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    height:100vh;
+
+}
+
+.container-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.titre-admin {
+    font-size:1.5rem;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.texte-admin {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bouton-add {
+    color: white;
+    text-align: center;
+    background-color: #7AA95C;
+    border: 2px solid #7AA95C;
+    padding:10px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:30px;
+    border-radius: 15px;
+}
+
+.bouton-delete {
+    color: white;
+    text-align: center;
+    background-color: #b83333;
+    border: 2px solid #b83333;
+    padding:10px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:30px;
+    border-radius: 15px;
+}
+
+.bouton-update {
+    color: white;
+    text-align: center;
+    background-color: #d1bf20;
+    border: 2px solid #d1bf20;
+    padding:10px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:30px;
+    border-radius: 15px;
+}
+
+.titre-ajout {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bouton-ajout {
+    color: white;
+    background-color: #7AA95C;
+    border: 2px solid #7AA95C;
+    padding:10px;
+    border-radius: 15px;
+    margin: auto 15px;
+}
+
+.boutons-ajout {
+    text-align: center;
+}
+
+

@@ -8,8 +8,8 @@
     padding: 20px;
 }
 
-.container_seminaires {
-    margin-top:150px!important;
+.container-seminaires {
+    margin-top:120px!important;
 }
 
 /* Cartes */
@@ -31,4 +31,42 @@
     border-radius: 0px 0px 10px 10px;
     border-bottom: 1px solid #00000052!important;
     color: white;
+}
+
+.titre-seminaires {
+    color:#7AA95C;
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom:20px;
+}
+
+.texte-seminaires {
+    text-align: center;
+    font-size:0.9rem;
+    margin-bottom: -5px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.bouton_destination .bouton-reserver {
+    color: white;
+    background-color: #7AA95C;
+    border: 2px solid #7AA95C;
+    border-radius: 20px;
+    padding:10px;
+    margin-top: -30px;
+}
+
+.container-pagination {
+    margin-top: 30px!important;
+    margin-bottom:30px!important;
 }

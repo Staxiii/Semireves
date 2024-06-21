@@ -6,14 +6,3 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
-.bouton_destination .bouton-plein {
-    padding: 10px 25px 10px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: all ease 0.35s;
-}
-
-.bouton_destination .bouton-plein:hover, .bouton-vide:hover, .bouton-plein:hover{
-    border-radius: 15px;
-}

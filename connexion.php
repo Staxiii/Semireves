@@ -40,9 +40,12 @@
 										</div>
 										<div class="text-center boutons">
                                         	<button class="btn btn-lg main-button me-3 bouton-vide">Se connecter</button>
-                                        	<a class="btn btn-lg main-button bouton-plein" href="index.php">Retour</a>
+                                        	<a class="btn btn-lg main-button bouton-plein" href="accueil.php">Retour</a>
 										</div>
 									</form>
+									<div class="text-center mb-3">
+										<p class="no-compte">Vous n'avez pas encore de compte ? <a href="inscription.php">S'inscrire</a></p>
+									</div>
 								</div>
 							</div>
 						</div>

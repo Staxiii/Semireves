@@ -10,20 +10,22 @@
     <link rel="stylesheet" href="elements/css/seminaires.css">
     <link rel="stylesheet" href="elements/css/header.css">
     <link rel="stylesheet" href="elements/css/qui-sommes-nous.css">
+    <link rel="stylesheet" href="elements/css/administration.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
+<script src="https://kit.fontawesome.com/be02b0b890.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@adminkit/core@latest/dist/js/app.js"></script>
     <title>Index</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.php" class="logo">
+            <a href="accueil.php" class="logo">
                 <img src="elements/images/logo.png">
                 <p class="text-logo">Sémirêves</p>
             </a>
             <div class="navigation">
-            <a href="index.php">Accueil</a>
+            <a href="accueil.php">Accueil</a>
                 <?php if (isset($_SESSION['username'])) {
                 echo "<a href='reservation.php'>Réservation</a>";
                 }?>

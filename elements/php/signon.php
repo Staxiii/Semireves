@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     else if (!empty($_POST['password']) && !empty($_POST['password']))
         {
-$host = '192.168.3.211';  // host = etu.bts-malraux72.net ou 192.168.3.211
+$host = 'etu.bts-malraux72.net';  // host = etu.bts-malraux72.net ou 192.168.3.211
 $dbname = 'a.fouquet';
 $username = 'a.fouquet';
 $password = 'P@ssword';
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         session_start();
         $_SESSION['username'] = $user['username'];
         $_SESSION['rank'] = $user['rank'];
-        header('Location: index.php');
+        header('Location: accueil.php');
         exit; } 
     else {
         echo "Nom d'utilisateur ou mot de passe incorrect";
